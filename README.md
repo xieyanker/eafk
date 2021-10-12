@@ -2,7 +2,7 @@
 
 The EAFK(Etcd Artifact For Kubernetes) is a tool for manipulating etcd data.
 
-It refer to two different versions of etcdhelper, one [etcdhelper](https://github.com/openshift/origin/tree/master/tools/etcdhelper) is developed by OpenShift, another [etcdhelper](https://github.com/flant/examples/tree/master/2020/04-etcdhelper) is modified by Flant.
+It refers to two different versions of etcdhelper, one [etcdhelper](https://github.com/openshift/origin/tree/master/tools/etcdhelper) is developed by OpenShift, another [etcdhelper](https://github.com/flant/examples/tree/master/2020/04-etcdhelper) is modified by Flant.
 
 The EAFK supports `apply, get, list, delete` sub command to manipulate the etcd data directly, rather than using kubectl. The advantage it brings is that it can bypass some of the limitations of k8s, which can be useful in some cases.
 
@@ -91,7 +91,7 @@ result:
 }
 ```
 
-### 3. eafk apply
+##### 3. eafk apply
 
 `eafk apply` can `create` or `update` the `key`'s value by specific file.
 
@@ -121,7 +121,7 @@ result:
 The key /registry/services/endpoints/default/karmada-apiserver has been putted
 ```
 
-### 4. eafk delete
+##### 4. eafk delete
 
 `eafk delete` can delete a `key` and its `value` from the etcd.
 
